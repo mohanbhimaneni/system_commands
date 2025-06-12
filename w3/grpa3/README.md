@@ -7,7 +7,5 @@ There are no spaces in the string.
 ```
 Solution:
 ```bash
-echo "Shell:$SHELL|PID:$$|Flags:hB"
+echo "Shell:$SHELL|PID:$$|Flags:$-"
 ```
-Note:
-This code is not correct, because the test cases were wrong!
