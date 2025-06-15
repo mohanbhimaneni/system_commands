@@ -12,3 +12,8 @@ Solution:
 ```bash
 (test -f twingle || createTwingle) && wc -l twingle
 ```
+
+A more simpler solution:
+```bash
+wc -l twingle || (createTwingle && wc -l twingle)
+```
